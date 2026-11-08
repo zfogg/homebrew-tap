@@ -7,22 +7,22 @@ class Spaniel < Formula
   on_macos do
     on_arm do
       url "https://github.com/zfogg/spaniel/releases/download/vmain/spaniel_main_darwin_arm64.tar.gz"
-      sha256 "9b920225b4e09b81b0ad895abb4a6bc6e30c7af6246ce5943bbf74ca9d24713d"
+      sha256 "42aa8c2c747a5526bf2c415ba9acb40c04f4ad22ae67c0b1e86ab4ced7206d68"
     end
     on_intel do
       url "https://github.com/zfogg/spaniel/releases/download/vmain/spaniel_main_darwin_amd64.tar.gz"
-      sha256 "63bddcd37b4b059715ef1f3292d4fe3fc79f411a59a2cd8aaef07f9dc6f5ae7f"
+      sha256 "32c1ec0788f081c0cc803a239d02f162f53e5a9d420910e5ae94e88a04af9380"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/zfogg/spaniel/releases/download/vmain/spaniel_main_linux_arm64.tar.gz"
-      sha256 "d0abfc579317b6959c950cb6cd2e304fe766211456a1e0d61385b4b66f29ad43"
+      sha256 "d2b7fa165a549a4df6963eeecece16e158107778fee7f65c8ced41882e79e32a"
     end
     on_intel do
       url "https://github.com/zfogg/spaniel/releases/download/vmain/spaniel_main_linux_amd64.tar.gz"
-      sha256 "0f1667bd290310146808cc0e4dc4ae8ba61c41aea4247f5b35938720419baffd"
+      sha256 "efb937e59d2f23943a60294e41a04175ba9028cf3f5fb76c529fd2c942484eae"
     end
   end
 
